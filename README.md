@@ -3,7 +3,7 @@ ZeroToNet is a neural network implementation built entirely from scratch, with n
 
 ## Overview
 
-ZeroToNet provides a comprehensive framework for creating neural networks from scratch. It includes modules as Dense architecture.
+ZeroToNet provides a comprehensive framework for creating neural networks from scratch. It includes modules as Dense architecture till now.
 
 ## Features
 
