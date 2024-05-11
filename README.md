@@ -20,9 +20,9 @@ To get started with ZeroToNet, simply clone this repository to your local machin
 To use ZeroToNet, import the necessary modules into your Python script:
 
 ```python
-from ANN import NeuralNetwork, DenseLayer, ActivationFunction, LossFunction
+from ANN import NeuralNetwork, Dense, ActivationFunction, LossFunction
 # Define your network architecture
 network = NeuralNetwork()
-network.add_layer(DenseLayer(input_size=784, output_size=128,activation='relu'))
-network.add_layer(DenseLayer(input_size=128, output_size=10,activation='relu'))
-network.add_layer(DenseLayer(input_size=10, output_size=1,activation='sigmoid'))
+network.add_layer(Dense(input_size=784, output_size=128,activation='relu'))
+network.add_layer(Dense(input_size=128, output_size=10,activation='relu'))
+network.add_layer(Dense(input_size=10, output_size=1,activation='sigmoid'))
